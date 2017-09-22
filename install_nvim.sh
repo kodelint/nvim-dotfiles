@@ -6,7 +6,7 @@ echo "${ESCAPE}[32mThis dotfile repo usages ${ESCAPE}[33mvim-plug${ESCAPE}[0m ${
 curl -sfLo ${HOME}/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 echo "${ESCAPE}[32mDownloading the required nvim settings and plugin listi ${ESCAPE}[0m\n"
-git clone https://github.com/git4sroy/nvim-dotfiles ${HOME}/.config/nvim/nvim-dotfiles
+git clone https://github.com/kodelint/nvim-dotfiles ${HOME}/.config/nvim/nvim-dotfiles
 cp -r ${HOME}/.config/nvim/nvim-dotfiles/* ${HOME}/.config/nvim/
 rm -rf ${HOME}/.config/nvim/nvim-dotfiles
 echo "${ESCAPE}[32mLets create the symlink for ${ESCAPE}[32m.nvimrc${ESCAPE}[0m"
