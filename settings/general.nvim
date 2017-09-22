@@ -10,7 +10,7 @@ set gcr=a:blinkon0                 "Disable cursor blink
 set visualbell                     "No sounds
 set autoread                       "Reload files changed outside vim
 let mapleader=","                  "Map Leader key to comma
-nmap <silent> // :nohlsearch<CR>   "Turn highlighting off                
+nmap <silent> // :nohlsearch<CR>   "Turn highlighting off
 
 "========================================================
 "                 Disable Arrow keys
@@ -43,6 +43,10 @@ nnoremap ,p :set paste! nopaste?<CR>
 nnoremap ,n :set number! nonumber?<CR>
 
 "========================================================
+"                    Splits Commands
+"========================================================
+
+"========================================================
 "             Copy filename and Path via VIM
 "========================================================
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
@@ -58,3 +62,30 @@ nnoremap ^ 0
 "                    Ruby indentation
 "========================================================
 au FileType ruby set softtabstop=2 tabstop=2 shiftwidth=2
+
+"========================================================
+" ,q to toggle quickfix window (stuff like Ag)
+" ,oq to open it back up (rare)
+"========================================================
+nmap <silent> ,qc :cclose<CR>
+nmap <silent> ,qo :copen<CR>
+
+"Move back and forth through previous and next buffers
+"with ,z and ,x
+"========================================================
+"Move back and forth through previous and next buffers
+"                 with ,z and ,x
+"========================================================
+nnoremap <silent> ,z :bp<CR>
+nnoremap <silent> ,x :bn<CR>
+
+"========================================================
+" Create window splits easier. The default
+" way is Ctrl-w,v and Ctrl-w,s.
+"========================================================
+nnoremap <silent> vv <C-w>v
+nnoremap <silent> ss <C-w>s
+"========================================================
+"                   (v)im (r)eload
+"========================================================
+nmap <silent> ,vr :so ~/.nvimrc<CR>
