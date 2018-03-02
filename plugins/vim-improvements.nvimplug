@@ -1,2 +1,4 @@
 Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-surround'
+Plug 'rking/ag.vim'
+Plug 'ctrlpvim/ctrlp.vim'
