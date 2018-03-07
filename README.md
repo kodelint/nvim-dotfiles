@@ -9,3 +9,7 @@ General vim overrides/settings should be put in a separate file named `settingna
 ```bash
 sh -c "`curl -fsSl https://raw.githubusercontent.com/kodelint/nvim-dotfiles/master/install_nvim.sh`"
 ```
+
+### Looks matters :)
+
+  <img src=https://i.imgur.com/hgaLnXY.jpg>
