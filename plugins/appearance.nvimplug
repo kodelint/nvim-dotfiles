@@ -1,5 +1,9 @@
-Plug 'bling/vim-airline'
+" Plug 'bling/vim-airline'
 Plug 'morhetz/gruvbox'
 Plug 'danilo-augusto/vim-afterglow'
+Plug 'romainl/Apprentice'
 " Required for Gblame in terminal vim
 Plug 'godlygeek/csapprox'
+Plug 'dracula/vim'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'itchyny/lightline.vim'

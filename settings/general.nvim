@@ -99,5 +99,9 @@ nmap <silent> ,vr :so ~/.nvimrc<CR>
 "========================================================
 "                  NeoVim Related 
 "========================================================
-let g:python_host_prog = '$HOME/.pyenv/versions/2.7.10/bin/python'
-let g:python3_host_prog = '$HOME/.pyenv/versions/3.5.0/bin/python'
+let g:python_host_prog = '/Users/m535987/.pyenv/versions/nvim27/bin/python'
+let g:python3_host_prog = '/Users/m535987/.pyenv/versions/nvim35/bin/python'
+"========================================================
+"                  Deoplete Related 
+"========================================================
+let g:deoplete#enable_at_startup = 1
